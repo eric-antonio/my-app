@@ -9,6 +9,10 @@
   align-items: center;
   background-color: rgba(0, 0, 83, 0.829);
 }
+.logoHeader{
+  width: 60px;
+  padding-left: 10px;
+}
 .nav-items{
   color: white;
   list-style: none;
@@ -18,7 +22,9 @@
 .nav-items > li{
   padding: 10px;
 }
-
+h1{
+  text-align: left;
+}
 /* ! Main Content Css */
 .main-cont{
   color: white;
@@ -27,7 +33,7 @@
   padding-left: 8%;
 }
 
-.list-facts{
+.list-facts::before{
   color: white;
   line-height: 1.5;
   list-style: none;
