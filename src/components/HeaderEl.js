@@ -10,7 +10,6 @@ export default function HeaderEl(){
                 <h1>ReactFcats</h1>
                 <ul className="nav-items">
                     <li>React Course - Project 1</li>
-
                 </ul>
             </nav>
        </header>
