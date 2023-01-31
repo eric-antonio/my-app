@@ -1,10 +1,13 @@
+*{
+  padding: 0;
+  margin-top: 0;
+}
 .header-nav{
   color: lightskyblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 83, 0.829);
-  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.103);
 }
 .nav-items{
   color: white;
@@ -14,4 +17,26 @@
 }
 .nav-items > li{
   padding: 10px;
+}
+
+/* ! Main Content Css */
+.main-cont{
+  color: white;
+  padding: 6% 0% 5% 0%;
+  background-color: rgba(3, 1, 31, 0.952);
+  padding-left: 8%;
+}
+
+.list-facts{
+  color: white;
+  line-height: 1.5;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: skyblue;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
