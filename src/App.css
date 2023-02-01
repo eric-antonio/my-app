@@ -34,7 +34,7 @@ h1{
   padding-left: 8%;
 }
 
-.list-facts::before{
+.list-facts{
   color: white;
   line-height: 1.5;
   list-style: none;
