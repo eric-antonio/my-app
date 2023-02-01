@@ -2,8 +2,9 @@
   padding: 0;
   margin-top: 0;
 }
+
 .header-nav{
-  color: lightskyblue;
+  color: #61DAFB;
   display: flex;
   justify-content: space-between;
   align-items: center;

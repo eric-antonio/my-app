@@ -4,7 +4,7 @@ import"../App.css"
 import reactLogo from"../img/react-logo.png"
 export default function HeaderEl(){
     return(
-       <header>
+       <header className="header-bar">
             <nav className="header-nav">
                 <img src={reactLogo} alt="React JS" className="logoHeader"/>
                 <h1>ReactFcats</h1>
