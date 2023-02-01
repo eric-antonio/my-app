@@ -8,9 +8,9 @@ export default function HeaderEl(){
             <nav className="header-nav">
                 <img src={reactLogo} alt="React JS" className="logoHeader"/>
                 <h1>ReactFcats</h1>
-                <ul className="nav-items">
-                    <li>React Course - Project 1</li>
-                </ul>
+               
+                <h3>React Course - Project 1</h3>
+        
             </nav>
        </header>
     )
