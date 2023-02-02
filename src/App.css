@@ -10,6 +10,10 @@
 body{
     margin: 0;
     font-family: Inter, sans-serif;
+    background-image:  url('./img/react-logo.png');
+    background-attachment: fixed;
+    background-position: 650px 150px;
+    background-repeat: no-repeat;
     background-color:var(--main-color) ;
 }
 /* ? Styling The NavBar */
