@@ -1,12 +1,9 @@
 import React from "react";
-
+import reactlogo from "../img/react-logo.png"
 export default function NavBar(){
     return(
-        <div className="header">
-            <nav>
-                <h1>ReactFacts</h1>
-                <h4>React Course -Project_01</h4>
-            </nav>
-        </div>
+        <nav>
+            <img src={reactlogo}/>
+        </nav>
     )
 }
