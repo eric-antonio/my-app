@@ -3,11 +3,15 @@ import React from "react";
 
 export default function Main(){
     return(
-        <div className="Main">
-            <h2>Fun facts about React</h2>
+        <main>
+            <h1>Fun facts about React</h1>
             <ul>
-                <li></li>
+                <li>Was first released in 2023</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100k stars on GitHub</li>
+                <li>In maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-        </div>
+        </main>
     )
 }
