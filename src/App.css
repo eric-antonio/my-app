@@ -10,6 +10,7 @@
 body{
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color:var(--main-color) ;
 }
 /* ? Styling The NavBar */
 nav{
@@ -40,5 +41,36 @@ nav{
 /* ? Styling The Main Component */
 
 main{
-    background-color:var(--main-color) ;
+    padding: 57px 27px;
+    color: white;
+}
+
+.main--title{
+
+    width: 424px;
+    height: 41px;
+    left: 27px;
+    top: 148px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts{
+    margin-top: 46px;
+
+}
+
+.main--facts > li{
+    padding-block:10px ;
+    max-width: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
